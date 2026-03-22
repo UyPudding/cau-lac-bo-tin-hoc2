@@ -1,0 +1,117 @@
+/* Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body */
+body {
+    font-family: 'Segoe UI', sans-serif;
+    line-height: 1.6;
+    background: #f4f6f9;
+}
+
+/* Header */
+header {
+    background: linear-gradient(135deg, #007BFF, #00c6ff);
+    color: white;
+    padding: 40px 20px;
+    text-align: center;
+}
+
+/* Navbar */
+nav {
+    background: #222;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+nav a {
+    color: white;
+    padding: 15px 20px;
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+nav a:hover {
+    background: #007BFF;
+}
+
+/* Section */
+section {
+    padding: 40px 20px;
+    max-width: 1000px;
+    margin: auto;
+}
+
+.hero-img {
+    width: 100%;
+    max-width: 900px;
+    border-radius: 12px;
+    margin: 20px auto;
+    display: block;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.2);
+}
+
+.center-img {
+    display: block;
+    margin: 20px auto;
+    max-width: 800px;
+    width: 100%;
+    border-radius: 12px;
+}
+
+/* Card */
+.card {
+    background: white;
+    padding: 20px;
+    margin: 15px 0;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    transition: 0.3s;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+}
+
+/* Button */
+button {
+    background: #007BFF;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background: #0056b3;
+}
+
+/* Form */
+input, textarea {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+/* Footer */
+footer {
+    background: #222;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    margin-top: 20px;
+}
+
+/* Responsive */
+@media (max-width: 600px) {
+    header {
+        font-size: 14px;
+    }
+}
